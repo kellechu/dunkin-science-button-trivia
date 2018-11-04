@@ -45,8 +45,8 @@ module.exports = (function () {
    */
   const GAME_OPTIONS = {
     MAX_PLAYERS: 4,
-    QUESTIONS_PER_GAME: 6,
-    QUESTIONS_PER_ROUND: 2,
+    QUESTIONS_PER_GAME: 15,
+    QUESTIONS_PER_ROUND: 5,
     ANSWER_SIMILARITY: .60,
     MAX_ANSWERS_PER_QUESTION: 4,
     SHUFFLE_QUESTIONS: true,

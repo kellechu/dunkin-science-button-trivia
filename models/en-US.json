@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "better buttons trivia",
+      "invocationName": "mr. dunkin's science trivia",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",

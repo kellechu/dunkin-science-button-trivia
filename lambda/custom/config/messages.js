@@ -13,7 +13,7 @@
 
 const questions = require('./questions');
 const settings = require('./settings');
-const GAME_TITLE = 'Better with Buttons Trivia';
+const GAME_TITLE = "Mr. Dunkin's science trivia";
 const GAME_TITLE_GERMAN = 'Besser mit Buttons Trivia';
 
 const messages = {
