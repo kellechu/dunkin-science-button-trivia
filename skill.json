@@ -3,49 +3,19 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "A trivia game made better with Echo Buttons for competitive play.",
+          "summary": "A science trivia game featuring Echo Buttons for competitive play.",
           "examplePhrases": [
-            "Alexa, open better buttons trivia",
-            "Alexa, start better buttons trivia",
-            "Alexa, ask better buttons trivia to start a new game"
+            "Alexa, open Mr. Dunkin's science trivia",
+            "Alexa, start Mr. Dunkin's science trivia",
+            "Alexa, ask Mr. Dunkin's science trivia to start a new game"
           ],
           "keywords": [
+            "science",
             "buttons",
-            "games",
             "trivia"
           ],
-          "name": "Better with Buttons Trivia Template",
+          "name": "Mr. Dunkin's Science Trivia",
           "description": "This is a fast-paced, trivia-style game, made better with Echo Buttons. Challenge your friends, or play by yourself."
-        },
-        "en-GB": {
-          "summary": "A trivia game featuring Echo Buttons for competitive play.",
-          "examplePhrases": [
-            "Alexa, open better buttons trivia",
-            "Alexa, start better buttons trivia",
-            "Alexa, ask better buttons trivia to start a new game"
-          ],
-          "keywords": [
-            "buttons",
-            "games",
-            "trivia"
-          ],
-          "name": "Better With Buttons Trivia Template",
-          "description": "This is a fast-paced, trivia-style game, made better with Echo Buttons. Challenge your friends, or play by yourself."
-        },
-        "de-DE": {
-          "summary": "Ein Trivia-Spiel, das mit Echo Buttons besser gemacht wird.",
-          "examplePhrases": [
-            "Alexa, öffnen besser buttons quiz",
-            "Alexa, beginnen Sie besser buttons quiz",
-            "Alexa, fragen Sie besser buttons quiz, um ein neues Spiel zu starten"
-          ],
-          "keywords": [
-            "buttons",
-            "Spiele",
-            "Quiz"
-          ],
-          "name": "Besser mit Buttons Quiz-Vorlage",
-          "description": "Dies ist ein schnelllebig, Trivia-Stil Spiel, besser gemacht mit Echo Buttons. Fordern Sie Ihre Freunde heraus oder spielen Sie selbst."
         }
       },
       "isAvailableWorldwide": false,
