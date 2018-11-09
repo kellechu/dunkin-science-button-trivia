@@ -1,1 +1,4 @@
 lambda/custom/node_modules
+.idea
+.DS_Store
+Archive.zip
