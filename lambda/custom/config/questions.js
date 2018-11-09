@@ -392,12 +392,12 @@ module.exports = Object.freeze({
       "index": 32,
       "question": "What is the definition of a fair test?",
       "answers": [
-        "Things that are being compared are being tested under the same conditions",
-        "A presentation of the procedure, results, and interpretations of the results from an investigation",
-        "In an experiment, the variables that are kept constant",
+        "Things that are compared are tested under the same conditions",
+        "A presentation of the procedure, results, and interpretations of the results",
+        "The variables that are kept constant in an experiment",
         "An opportunity during the design process to share plans and get advice from others"
       ],
-      "correct_answer": "Things that are being compared are being tested under the same conditions"
+      "correct_answer": "Things that are compared are tested under the same conditions"
     },
     {
       "index": 33,
@@ -415,17 +415,17 @@ module.exports = Object.freeze({
       "question": "What is the independent variable?",
       "answers": [
         "The responding variable in an experiment",
-        "The variable that the scientist intentionally changes in an experiment",
+        "The variable intentionally changed in an experiment",
         "The variable that is kept constant in an experiment",
         "The variable whose value is measured in an experiment"
       ],
-      "correct_answer": "The variable that the scientist intentionally changes in an experiment"
+      "correct_answer": "The variable intentionally changed in an experiment"
     },
     {
       "index": 35,
       "question": "What are the control variables?",
       "answers": [
-        "The variables that the scientist intentionally change in an experiment",
+        "The variables intentionally changed in an experiment",
         "The variables that are kept constant in an experiment",
         "The responding variables in an experiment",
         "The manipulated variables in an experiment"
@@ -437,11 +437,11 @@ module.exports = Object.freeze({
       "question": "What are the dependent variables?",
       "answers": [
         "The manipulated variables in an experiment",
-        "The variables whose values are measured in an experiment",
+        "The variables measured in an experiment",
         "The variables that are kept constant in an experiment",
-        "The variables that the scientist intentionally change in an experiment"
+        "The variables intentionally changed in an experiment"
       ],
-      "correct_answer": "The variables whose values are measured in an experiment"
+      "correct_answer": "The variables measured in an experiment"
     },
     {
       "index": 37,
@@ -648,9 +648,9 @@ module.exports = Object.freeze({
         "A discussion that helps one understand why a claim is true",
         "Knowledge about how things work gathered from reading",
         "Knowledge about how things work gathered from research",
-        "Goals that must be satisfied to be able to successfully achieve a challenge"
+        "Goals that must be satisfied to successfully achieve a challenge"
       ],
-      "correct_answer": "Goals that must be satisfied to be able to successfully achieve a challenge"
+      "correct_answer": "Goals that must be satisfied to successfully achieve a challenge"
     },
     {
       "index": 56,
@@ -793,23 +793,23 @@ module.exports = Object.freeze({
       "index": 68,
       "question": "Which is not a property of noble gases?",
       "answers": [
-        "Elements that are found in column eighteen in the Periodic Table of the Elements",
+        "Elements that are found in column eighteen in the Periodic Table",
         "A family of elements with full electron energy levels",
-        "Elements that are found on the left side and center of the Periodic Table of the Elements",
+        "Elements found on the left and center of the Periodic Table",
         "Elements that do not undergo chemical reactions"
       ],
-      "correct_answer": "Elements that are found on the left side and center of the Periodic Table of the Elements"
+      "correct_answer": "Elements found on the left and center of the Periodic Table"
     },
     {
       "index": 69,
       "question": "Which is not a property of metals?",
       "answers": [
-        "Elements that are found on the left side and center of the Periodic Table of the Elements",
+        "Elements found on the left and center of the Periodic Table",
         "Usually a solid that is hard and shiny and can be made into a wire",
         "Can conduct electricity",
-        "Elements that are found in column eighteen in the Periodic Table of the Elements"
+        "Elements that are found in column eighteen in the Periodic Table"
       ],
-      "correct_answer": "Elements that are found in column eighteen in the Periodic Table of the Elements"
+      "correct_answer": "Elements that are found in column eighteen in the Periodic Table"
     },
     {
       "index": 70,
@@ -849,22 +849,22 @@ module.exports = Object.freeze({
       "question": "Which of the following is not a characteristic of a liquid?",
       "answers": [
         "It takes the shape of its container",
-        "The particles remain close together and slide past each other in a fluid motion",
-        "The particles are far apart and move rapidly and randomly",
+        "The particles slide past each other in a fluid motion",
+        "The particles are far apart and move rapidly",
         "Matter that has a definite volume but not a definite shape"
       ],
-      "correct_answer": "The particles are far apart and move rapidly and randomly"
+      "correct_answer": "The particles are far apart and move rapidly"
     },
     {
       "index": 74,
       "question": "Which of the following is not a characteristic of a gas?",
       "answers": [
         "It takes the shape and volume of its container",
-        "The particles remain close together and slide past each other in a fluid motion",
+        "The particles slide past each other in a fluid motion",
         "The particles are far apart and move rapidly and randomly",
         "Matter that has no definite shape or volume"
       ],
-      "correct_answer": "The particles remain close together and slide past each other in a fluid motion"
+      "correct_answer": "The particles slide past each other in a fluid motion"
     },
     {
       "index": 75,
@@ -916,11 +916,11 @@ module.exports = Object.freeze({
       "answers": [
         "It can determine whether a solution is basic",
         "It can determine whether a solution is acidic",
-        "It is a paper made from wood, lichen, and other compounds",
-        "It is a test used to measure a range of P H's",
+        "A paper made from wood, lichen, and other compounds",
+        "A test used to measure a range of P H's",
         "It is an indicator"
       ],
-      "correct_answer": "It is a test used to measure a range of P H's"
+      "correct_answer": "A test used to measure a range of P H's"
     },
     {
       "index": 80,
@@ -1149,19 +1149,18 @@ module.exports = Object.freeze({
       "answers": [
         "To have an equal number of hydrogen ions and hydroxide ions",
         "A chemical reaction that forms the product water",
-        "Its buffering capacity",
-        "The reaction of an acid and a base together to form one oxygen atom, one hydrogen atom, and an extra electron",
-        "to bring the P H of a solution close to seven"
+        "A chemical reaction that forms hydroxide ions",
+        "To bring the P H of a solution close to seven"
       ],
-      "correct_answer": "The reaction of an acid and a base together to form one oxygen atom, one hydrogen atom, and an extra electron"
+      "correct_answer": "A chemical reaction that forms hydroxide ions"
     },
     {
       "index": 101,
       "question": "What is the definition of a reactant?",
       "answers": [
-        "A substance that is formed by a chemical change",
+        "A substance formed by a chemical change",
         "A substance that enters into physical change",
-        "A substance that is formed by a chemical reaction",
+        "A substance formed by a chemical reaction",
         "A substance that enters into a chemical reaction"
       ],
       "correct_answer": "A substance that enters into a chemical reaction"
@@ -1171,22 +1170,22 @@ module.exports = Object.freeze({
       "question": "What is the definition of a product?",
       "answers": [
         "A substance that enters into a chemical change",
-        "A substance that is formed by a chemical change",
+        "A substance formed by a chemical change",
         "A substance that enters into a chemical reaction",
-        "A substance that is formed by a physical change"
+        "A substance formed by a physical change"
       ],
-      "correct_answer": "A substance that is formed by a chemical change"
+      "correct_answer": "A substance formed by a chemical change"
     },
     {
       "index": 103,
       "question": "What is the definition of a mixture?",
       "answers": [
-        "Two or more substances combine such that each substance may retain its own identity",
-        "Two or more substances combine to enter into a chemical reaction with one another",
-        "A compound made of a positive ion and a negative ion",
+        "Substances combine and retain own identity",
+        "Substances combine into a chemical reaction",
+        "A compound made of a positive and negative ions",
         "A combination of two reactants in a solution"
       ],
-      "correct_answer": "Two or more substances combine such that each substance may retain its own identity"
+      "correct_answer": "Substances combine and retain own identity"
     },
     {
       "index": 104,
@@ -1234,14 +1233,14 @@ module.exports = Object.freeze({
     },
     {
       "index": 108,
-      "question": "What is the P H scale?",
+      "question": "What is the P H scale a measure of the concentration of?",
       "answers": [
-        "A measure of the concentration of the oxygen in a substance",
-        "A measure of the concentration of the hydroxide ions in a substance",
-        "A measure of the concentration of hydrogen ions in a substance",
-        "A measure of the concentration of the water molecules in a substance"
+        "the oxygen in a substance",
+        "the hydroxide ions in a substance",
+        "the hydrogen ions in a substance",
+        "the water molecules in a substance"
       ],
-      "correct_answer": "A measure of the concentration of hydrogen ions in a substance"
+      "correct_answer": "the hydrogen ions in a substance"
     },
     {
       "index": 109,
@@ -1264,6 +1263,832 @@ module.exports = Object.freeze({
         "A chemical bond between two hydrogen ions"
       ],
       "correct_answer": "A chemical bond between a positive ion and a negative ion"
-    }
-  ]
-});
+    },
+    {
+      "index": 111,
+        "question": "What is the term for water vapor in the air?",
+        "answers": [
+            "Humidity",
+            "Precipitation",
+            "Rain",
+            "Cloud"
+        ],
+        "correct_answer": "Humidity"
+      },
+      {
+          "index": 112,
+          "question": "Which of the following is not a characteristic of a chemical change?",
+          "answers": [
+              "A change only in the form or appearance of matter",
+              "A chemical reaction",
+              "A change in the composition",
+              "A change in the chemical makeup"
+          ],
+          "correct_answer": "A change only in the form or appearance of matter"
+      },
+      {
+          "index": 113,
+          "question": "Which of the following is a characteristic of a physical change?",
+          "answers": [
+              "A change only in the form or appearance of matter",
+              "A chemical reaction",
+              "A change in the composition",
+              "A change in the chemical makeup"
+          ],
+          "correct_answer": "A change only in the form or appearance of matter"
+      },
+      {
+          "index": 114,
+          "question": "What is the introduction of chemicals, particles, or organisms to air that are harmful to living things and structures called?",
+          "answers": [
+              "air pollution",
+              "leaching",
+              "fossil fuel",
+              "Clean Air Act"
+          ],
+          "correct_answer": "air pollution"
+      },
+      {
+          "index": 115,
+          "question": "Which of the following is not a P M or particulate matter?",
+          "answers": [
+              "fire",
+              "soot",
+              "solid particles that become airborne",
+              "products of combustion that can be inhaled by people"
+          ],
+          "correct_answer": "fire"
+      },
+      {
+          "index": 116,
+          "question": "What are atoms and molecules that make up substances?",
+          "answers": [
+              "particles",
+              "pollutants",
+              "part per million",
+              "part per billion"
+          ],
+          "correct_answer": "particles"
+      },
+      {
+          "index": 117,
+          "question": "Which of the following is not a characteristic of smog?",
+          "answers": [
+              "a reaction formed from metals and oxygen",
+              "a photochemical activated by sunlight",
+              "an air pollutant",
+              "a reaction formed from nitrogen oxides and V O C's"
+          ],
+          "correct_answer": "a reaction formed from metals and oxygen"
+      },
+      {
+          "index": 118,
+          "question": "Which of the following is the flow of energy stored in food from one organism to another?",
+          "answers": [
+              "food chain",
+              "photosynthesis",
+              "thermal energy",
+              "convection"
+          ],
+          "correct_answer": "food chain"
+      },
+      {
+          "index": 119,
+          "question": "What is the shorthand method of representing the types of atoms and the numbers of atoms in a molecule?",
+          "answers": [
+              "molecular formula",
+              "chemical symbol",
+              "coefficient",
+              "atomic number"
+          ],
+          "correct_answer": "molecular formula"
+      },
+      {
+          "index": 120,
+          "question": "Which of the following is the name for water found in ponds, lakes, streams and oceans?",
+          "answers": [
+              "Surface water",
+              "Ground water",
+              "Condensation",
+              "Hard water"
+          ],
+          "correct_answer": "Surface water"
+      },
+      {
+          "index": 121,
+          "question": "Which of the following is not a characteristic of a nonmetal?",
+          "answers": [
+              "An element that is a gas",
+              "An element that is a soft, brittle solid",
+              "It conducts electricity",
+              "It does not conduct electricity"
+          ],
+          "correct_answer": "it conducts electricity"
+      },
+      {
+          "index": 122,
+          "question": "What is the term for the component of a solution present in the greatest amount?",
+          "answers": [
+              "Solvent",
+              "Solute",
+              "Concentration",
+              "Solubility"
+          ],
+          "correct_answer": "Solvent"
+      },
+      {
+          "index": 123,
+          "question": "What is the term for the component of a solution said to dissolve in the solvent?",
+          "answers": [
+              "Solute",
+              "Solvent",
+              "Solubility",
+              "Concentration"
+          ],
+          "correct_answer": "Solute"
+      },
+      {
+          "index": 124,
+          "question": "Which of the following is not a characteristic of the term dilute?",
+          "answers": [
+              "when the amount of solute in a solvent is lower",
+              "to decrease the concentration of a substance in a mixture",
+              "to make a weaker solution",
+              "when no more solute can dissolve in the solvent"
+          ],
+          "correct_answer": "when no more solute can dissolve in the solvent"
+      },
+      {
+          "index": 125,
+          "question": "What is the term for the amount of solute in a solvent?",
+          "answers": [
+              "Concentration",
+              "Dilution",
+              "Precipitate",
+              "Condensation"
+          ],
+          "correct_answer": "Concentration"
+      },
+      {
+          "index": 126,
+          "question": "What is the temperature at which a solid changes to a liquid?",
+          "answers": [
+              "melting point",
+              "boiling point",
+              "evaporation",
+              "freezing point"
+          ],
+          "correct_answer": "melting point"
+      },
+      {
+          "index": 127,
+          "question": "What is the temperature at which liquid changes to a gas?",
+          "answers": [
+              "melting point",
+              "boiling point",
+              "evaporation",
+              "freezing point"
+          ],
+          "correct_answer": "boiling point"
+      },
+      {
+          "index": 128,
+          "question": "What is the temperature at which a liquid turns into a solid?",
+          "answers": [
+              "melting point",
+              "boiling point",
+              "condensation",
+              "freezing point"
+          ],
+          "correct_answer": "freezing point"
+      },
+      {
+          "index": 129,
+          "question": "What is the process of a substance changing directly from a solid to a gas?",
+          "answers": [
+              "sublimation",
+              "freezing",
+              "condensation",
+              "evaporation"
+          ],
+          "correct_answer": "sublimation"
+      },
+      {
+          "index": 130,
+          "question": "What is the process in which a liquid cools to form a solid?",
+          "answers": [
+              "sublimation",
+              "freezing",
+              "condensation",
+              "evaporation"
+          ],
+          "correct_answer": "freezing"
+      },
+      {
+          "index": 131,
+          "question": "What is the process in which a gas cools to form a liquid?",
+          "answers": [
+              "evaporation",
+              "sublimation",
+              "condensation",
+              "freezing"
+          ],
+          "correct_answer": "condensation"
+      },
+      {
+          "index": 132,
+          "question": "What is the state of matter that forms from gases at very high temperatures?",
+          "answers": [
+              "plasma",
+              "precipitate",
+              "smog",
+              "ozone"
+          ],
+          "correct_answer": "plasma"
+      },
+      {
+          "index": 133,
+          "question": "What is the change from a liquid to gas at a temperature that is lower than the boiling point called?",
+          "answers": [
+              "evaporation",
+              "plasma",
+              "sublimation",
+              "chemical reaction"
+          ],
+          "correct_answer": "evaporation"
+      },
+      {
+          "index": 134,
+          "question": "What are very short high energy rays from the Sun called?",
+          "answers": [
+              "ultraviolet rays",
+              "infrared rays",
+              "solar radiation",
+              "X rays"
+          ],
+          "correct_answer": "ultraviolet rays"
+      },
+      {
+          "index": 135,
+          "question": "Which of the following is not a characteristic of temperature?",
+          "answers": [
+              "it measures warmer as the particles move faster",
+              "it measures colder as the particles move slower",
+              "it measures the average speed of the particles of matter",
+              "it measures the total energy in a substance"
+          ],
+          "correct_answer": "it measures the total energy in a substance"
+      },
+      {
+          "index": 136,
+          "question": "What is the transfer of energy from a warmer substance to a cooler one called?",
+          "answers": [
+              "heat",
+              "thermal energy",
+              "temperature",
+              "thermal inversion"
+          ],
+          "correct_answer": "heat"
+      },
+      {
+          "index": 137,
+          "question": "What is another name for a molecule that is made up of three oxygen atoms?",
+          "answers": [
+              "ozone",
+              "triple bond",
+              "ion",
+              "pollutant"
+          ],
+          "correct_answer": "ozone"
+      },
+      {
+          "index": 138,
+          "question": "What is the name of the bond where two atoms share four electrons?",
+          "answers": [
+              "double bond",
+              "triple bond",
+              "single bond",
+              "ionic bond"
+          ],
+          "correct_answer": "double bond"
+      },
+      {
+          "index": 139,
+          "question": "What is the name of the bond where two atoms share six electrons?",
+          "answers": [
+              "triple bond",
+              "double bond",
+              "single bond",
+              "ionic bond"
+          ],
+          "correct_answer": "triple bond"
+      },
+      {
+          "index": 140,
+          "question": "What is the name of the bond where two atoms share two electrons?",
+          "answers": [
+              "single bond",
+              "triple bond",
+              "double bond",
+              "ionic bond"
+          ],
+          "correct_answer": "single bond"
+      },
+      {
+          "index": 141,
+          "question": "What is the name of the bond when one atom gives up one or more electrons to another atom?",
+          "answers": [
+              "ionic bond",
+              "single bond",
+              "double bond",
+              "triple bond"
+          ],
+          "correct_answer": "ionic bond"
+      },
+      {
+          "index": 142,
+          "question": "What is defined as something that repeats in a regular pattern?",
+          "answers": [
+              "period",
+              "data plot",
+              "evidence",
+              "template"
+          ],
+          "correct_answer": "period"
+      },
+      {
+          "index": 143,
+          "question": "Which of the following is not a true chemical bond?",
+          "answers": [
+              "an attraction between atoms that share electrons",
+              "covalent bonds",
+              "ionic bonds",
+              "hydrogen bonds"
+          ],
+          "correct_answer": "hydrogen bonds"
+      },
+      {
+          "index": 144,
+          "question": "What is the center part of at atom called?",
+          "answers": [
+              "nucleus",
+              "proton",
+              "neutron",
+              "electron shell"
+          ],
+          "correct_answer": "nucleus"
+      },
+      {
+          "index": 145,
+          "question": "Which of the following is not a characteristic of rust?",
+          "answers": [
+              "salt water will rust metal faster than fresh water",
+              "it is a product of a chemical reaction with oxygen and water",
+              "it produces a reddish brown crust or green film",
+              "it does not affect metals that contain iron"
+          ],
+          "correct_answer": "it does not affect metals that contain iron"
+      },
+      {
+          "index": 146,
+          "question": "Which is not a secondary pollutant?",
+          "answers": [
+              "acid rain",
+              "pollutants formed directly from natural activities and human activities",
+              "photochemical smog",
+              "ground ozone"
+          ],
+          "correct_answer": "pollutants formed directly from natural activities and human activities"
+      },
+      {
+          "index": 147,
+          "question": "Which of the following is not usually in molecular formulas?",
+          "answers": [
+              "coefficients",
+              "chemical symbols",
+              "subscripts",
+              "superscripts"
+          ],
+          "correct_answer": "superscripts"
+      },
+      {
+          "index": 148,
+          "question": "What is a substance that reacts with oxygen to produce light and heat?",
+          "answers": [
+              "fuel",
+              "ozone",
+              "plasma",
+              "indicator"
+          ],
+          "correct_answer": "fuel"
+      },
+      {
+          "index": 149,
+          "question": "What is an atom, or group of atoms, that has lost electrons?",
+          "answers": [
+              "positive ion",
+              "negative ion",
+              "stable",
+              "unstable"
+          ],
+          "correct_answer": "positive ion"
+      },
+      {
+          "index": 150,
+          "question": "What is an atom, or group of atoms, that has gained electrons?",
+          "answers": [
+              "negative ion",
+              "positive ion",
+              "stable",
+              "unstable"
+          ],
+          "correct_answer": "negative ion"
+      },
+      {
+          "index": 151,
+          "question": "What is a solid substance formed from a liquid solution called?",
+          "answers": [
+              "precipitate",
+              "fuel",
+              "leaching",
+              "salt"
+          ],
+          "correct_answer": "precipitate"
+      },
+      {
+          "index": 152,
+          "question": "What is a nonrenewable resource formed from the remains of living things over millions of years?",
+          "answers": [
+              "Fossil fuel",
+              "Geothermal energy",
+              "tidal energy",
+              "biomass fuel"
+          ],
+          "correct_answer": "Fossil fuel"
+      },
+      {
+          "index": 153,
+          "question": "Which of the following is not a photochemical?",
+          "answers": [
+              "ground ozone",
+              "smog",
+              "rust",
+              "an air pollutant formed from nitrogen oxides and V O C's"
+          ],
+          "correct_answer": "rust"
+      },
+      {
+          "index": 154,
+          "question": "Which of the following is a primary pollutant?",
+          "answers": [
+              "photochemical smog",
+              "ground ozone",
+              "pollutants formed directly from natural activities and human activities",
+              "acid rain"
+          ],
+          "correct_answer": "pollutants formed directly from natural activities and human activities"
+      },
+      {
+          "index": 155,
+          "question": "What is the concentration of hydrogen ions in a solution called?",
+          "answers": [
+              "acidity",
+              "alkalinity",
+              "buffering capacity",
+              "solubility"
+          ],
+          "correct_answer": "acidity"
+      },
+      {
+          "index": 156,
+          "question": "Which is a device providing specific information on the state or condition of something?",
+          "answers": [
+              "indicator",
+              "balance",
+              "food chain",
+              "sampling"
+          ],
+          "correct_answer": "indicator"
+      },
+      {
+          "index": 157,
+          "question": "Which is not a condition of the Environmental Protection Agency?",
+          "answers": [
+              "it is run by the government",
+              "it improves and restores the environment",
+              "it protects public health and environmental quality",
+              "it is a nonprofit agency"
+          ],
+          "correct_answer": "it is a nonprofit agency"
+      },
+      {
+          "index": 158,
+          "question": "Which is not a condition of the Clean Air Act?",
+          "answers": [
+              "it defines the government's responsibilities for protecting the nation's air quality",
+              "it regulates air emissions from stationary and mobile sources",
+              "it regulates emissions of hazardous air pollutants",
+              "it regulates noise pollution as well"
+          ],
+          "correct_answer": "it regulates noise pollution as well"
+      },
+      {
+          "index": 159,
+          "question": "What is the term that describes the number of particles of one substance in one million particles of a mixture?",
+          "answers": [
+              "part per million",
+              "part per billion",
+              "percent",
+              "particulate matter"
+          ],
+          "correct_answer": "part per million"
+      },
+      {
+          "index": 160,
+          "question": "What is one percent?",
+          "answers": [
+              "one out of one hundred",
+              "one out of one million",
+              "one out of one billion",
+              "one out of thousand"
+          ],
+          "correct_answer": "one out of one hundred"
+      },
+      {
+          "index": 161,
+          "question": "What is the term that describes the number of particles of one substance in one billion particles of a mixture?",
+          "answers": [
+              "part per million",
+              "part per billion",
+              "percent",
+              "particulate matter"
+          ],
+          "correct_answer": "part per billion"
+      },
+      {
+          "index": 162,
+          "question": "What is not a property of acid rain?",
+          "answers": [
+              "it is a secondary pollutant",
+              "it is a primary pollutant",
+              "it describes any of several ways acid falls out of the atmosphere",
+              "it leaches nutrients from the soil"
+          ],
+          "correct_answer": "it is a primary pollutant"
+      },
+      {
+          "index": 163,
+          "question": "What is leaching?",
+          "answers": [
+              "the removal of nutrients in the soil by acids",
+              "the removal of electrons from a atom",
+              "the removal of a solute from its solvent",
+              "the removal of pollutants from the atmosphere"
+          ],
+          "correct_answer": "the removal of nutrients in the soil by acids"
+      },
+      {
+          "index": 164,
+          "question": "Which is not always a characteristic of combustion?",
+          "answers": [
+              "it produces water and carbon dioxide",
+              "it is the reaction of a fuel with oxygen",
+              "it produces energy",
+              "it produces soot, or carbon"
+          ],
+          "correct_answer": "it produces soot or carbon"
+      },
+      {
+          "index": 165,
+          "question": "What is a one or two letter shorthand notation for describing a chemical element?",
+          "answers": [
+              "chemical symbol",
+              "coefficient",
+              "chemical equation",
+              "atomic mass"
+          ],
+          "correct_answer": "chemical symbol"
+      },
+      {
+          "index": 166,
+          "question": "In molecular formulas, this shows how many atoms of that type of element are in a molecule?",
+          "answers": [
+              "subscript",
+              "coefficent",
+              "atomic number",
+              "atomic mass"
+          ],
+          "correct_answer": "subscript"
+      },
+      {
+          "index": 167,
+          "question": "What is a statement that expresses what is happening in a chemical reaction in a brief, abbreviated way?",
+          "answers": [
+              "chemical equation",
+              "chemical symbol",
+              "sampling",
+              "coefficient"
+          ],
+          "correct_answer": "chemical equation"
+      },
+      {
+          "index": 168,
+          "question": "What is the number in front of each chemical formula that shows how many molecules of that compound are used or produced in a chemical reaction?",
+          "answers": [
+              "coefficient",
+              "subscript",
+              "atomic mass",
+              "atomic number"
+          ],
+          "correct_answer": "coefficient"
+      },
+      {
+          "index": 169,
+          "question": "What is the water found in the soil and beneath the surface of the Earth called?",
+          "answers": [
+              "groundwater",
+              "surface water",
+              "spring runoff",
+              "hard water"
+          ],
+          "correct_answer": "groundwater"
+      },
+      {
+          "index": 170,
+          "question": "What is the particulate matter that is a product of combustion?",
+          "answers": [
+              "soot",
+              "acid rain",
+              "rust",
+              "ozone"
+          ],
+          "correct_answer": "soot"
+      },
+      {
+          "index": 171,
+          "question": "What is the energy of motion of the particles of matter in a substance called?",
+          "answers": [
+              "thermal energy",
+              "thermal inversion",
+              "convection",
+              "unstable"
+          ],
+          "correct_answer": "thermal energy"
+      },
+      {
+          "index": 172,
+          "question": "What is the term for easily changed?",
+          "answers": [
+              "unstable",
+              "indicator",
+              "constraints",
+              "heterogeneous"
+          ],
+          "correct_answer": "unstable"
+      },
+      {
+          "index": 173,
+          "question": "What is a table listing all the known elements and their properties?",
+          "answers": [
+              "Periodic Table of the Elements",
+              "Periodic Table of Pure Substances",
+              "Periodic Table of Chemistry",
+              "Periodic Table of Ions"
+          ],
+          "correct_answer": "Periodic Table of the Elements"
+      },
+      {
+          "index": 174,
+          "question": "What is a pure substance made up of two or more different elements called?",
+          "answers": [
+              "compound",
+              "heterogeneous",
+              "pure substance",
+              "homogeneous"
+          ],
+          "correct_answer": "compound"
+      },
+      {
+          "index": 175,
+          "question": "What is the ability of a solute to dissolve in a solvent called?",
+          "answers": [
+              "solubility",
+              "concentrated",
+              "chemical reaction",
+              "precipitate"
+          ],
+          "correct_answer": "solubility"
+      },
+      {
+          "index": 176,
+          "question": "Which of the following is the definition of concentrated?",
+          "answers": [
+              "the amount of solute in a solvent",
+              "to increase concentration of a substance in a mixture",
+              "when no more solute can dissolve in the solvent",
+              "the ability of a solute to dissolve in a solvent"
+          ],
+          "correct_answer": "to increase concentration of a substance in a mixture"
+      },
+      {
+          "index": 177,
+          "question": "What is a small part of something, or one of the many things in a set?",
+          "answers": [
+              "sample",
+              "sampling",
+              "representative",
+              "microscopic"
+          ],
+          "correct_answer": "sample"
+      },
+      {
+          "index": 178,
+          "question": "What is the term that means to choose a part to examine?",
+          "answers": [
+              "sampling",
+              "sample",
+              "representative",
+              "trial"
+          ],
+          "correct_answer": "sampling"
+      },
+      {
+          "index": 179,
+          "question": "Which term means typical or similar to, when referring to sampling?",
+          "answers": [
+              "representative",
+              "evidence",
+              "trend",
+              "replicate"
+          ],
+          "correct_answer": "representative"
+      },
+      {
+          "index": 180,
+          "question": "What is another name for a substance that can make air, soil, or water harmful to organisms and structures?",
+          "answers": [
+              "pollutant",
+              "fossil fuels",
+              "solvent",
+              "rust"
+          ],
+          "correct_answer": "pollutant"
+      },
+      {
+          "index": 181,
+          "question": "What is the condition of air in terms of the amount of pollutants it contains?",
+          "answers": [
+              "air quality",
+              "polluted",
+              "particulate matter",
+              "smog"
+          ],
+          "correct_answer": "air quality"
+      },
+      {
+          "index": 182,
+          "question": "Which is not a characteristic of an ion?",
+          "answers": [
+              "it has more electrons that protons and an overall negative charge",
+              "it has fewer electrons than protons and an overall positive charge",
+              "can form the compound salt",
+              "forms covalent bonds with other ions"
+          ],
+          "correct_answer": "forms covalent bonds with other ions"
+      },
+      {
+          "index": 183,
+          "question": "What is the name of the weather condition where an overlaying mass of heated air prevents the circulation of air beneath it?",
+          "answers": [
+              "thermal inversion",
+              "convection",
+              "balance",
+              "stable"
+          ],
+          "correct_answer": "thermal inversion"
+      },
+      {
+          "index": 184,
+          "question": "What is the transfer of heat in a fluid through a current made up of warm, rising fluid and cool, sinking fluid?",
+          "answers": [
+              "convection",
+              "thermal inversion",
+              "density",
+              "unstable"
+          ],
+          "correct_answer": "convection"
+      },
+      {
+          "index": 185,
+          "question": "What is the normal weather conditions of a region, throughout the year, averaged over a series of years?",
+          "answers": [
+              "climate",
+              "air quality",
+              "temperature",
+              "period"
+          ],
+          "correct_answer": "climate"
+      },
+},
+]
+}
