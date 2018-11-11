@@ -75,7 +75,7 @@ module.exports = (function () {
    */
   const STORAGE = {
     // Session persistence
-    SESSION_TABLE: 'better-with-buttons-trivia'
+    SESSION_TABLE: 'dunkin-science-with-buttons-trivia'
   };
 
   /**
