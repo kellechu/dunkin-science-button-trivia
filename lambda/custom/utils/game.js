@@ -690,7 +690,7 @@ const Game = {
       }
 
       // Use a shorter break for buttonless games
-      let breakTime = sessionAttributes.STATE === settings.STATE.BUTTON_GAME_STATE ? 4 : 1;
+      let breakTime = sessionAttributes.STATE === settings.STATE.BUTTON_GAME_STATE ? 1   : .5;
       let answers = `<break time='${breakTime}s'/> Is it `;
       if (nextQuestion.answers) {
         if (nextQuestion.answers.length > 1) {
