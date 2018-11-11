@@ -85,7 +85,7 @@ const gamePlayHandlers = {
       let messageKey = isFirstQuestion ? 'PLAY_GAME_FIRST_QUESTION' : 'PLAY_GAME_MID_GAME';
       let responseMessage = ctx.t(messageKey, {current_question: sessionAttributes.currentQuestion})
 
-      ctx.outputSpeech.push(responseMessage.outputSpeech + "<break time='1s'/>");
+      ctx.outputSpeech.push(responseMessage.outputSpeech + "<break time='1s'/><!-- gameplay 88 pause -->");
 
       Game.askQuestion(handlerInput, false);
       return responseBuilder.getResponse();
@@ -162,7 +162,7 @@ const gamePlayHandlers = {
       let isLastQuestion = parseInt(sessionAttributes.currentQuestion || 1, 10) > settings.GAME.QUESTIONS_PER_GAME;
       let messageKey = isLastQuestion ? 'PLAY_GAME_SKIP_LAST_QUESTION' : 'PLAY_GAME_SKIP_QUESTION';
       let responseMessage = ctx.t(messageKey, sessionAttributes.currentQuestion);
-      ctx.outputSpeech.push(responseMessage.outputSpeech + "<break time='1s'/>");
+      ctx.outputSpeech.push(responseMessage.outputSpeech + "<break time='1s'/><!-- gameplay 165 pause -->");
 
       Game.askQuestion(handlerInput, false);
       return responseBuilder.getResponse();

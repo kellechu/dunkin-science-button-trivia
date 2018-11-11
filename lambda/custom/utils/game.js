@@ -157,12 +157,12 @@ const gameHelper = {
     });
     let outroPrompt = ctx.t('GAME_ROUND_SUMMARY_OUTRO');
 
-    let outputSpeech = "<break time='1s'/>" +
+    let outputSpeech = "<break time='1s'/><!-- line 160 pause -->" +
       introPrompt.outputSpeech + " " +
       gameHelper.getFormattedScores(handlerInput, scores, playerCount) +
-      "<break time='1s'/>" +
+      "<break time='1s'/><!-- line 163 pause -->" +
       outroPrompt.outputSpeech +
-      "<break time='1s'/>";
+      "<break time='1s'/><!-- line 165 pause -->";
     return outputSpeech;
   },
 
@@ -264,11 +264,11 @@ const Game = {
 
       // Give a pause if there is nothing to say before the summary
       if (ctx.outputSpeech.length === 0){
-        ctx.outputSpeech.push("<break time='2s'/>");
+        ctx.outputSpeech.push("<break time='2s'/><!-- line 267 pause -->");
       }
       ctx.outputSpeech.push(gameFinishedMessageAttributes.outputSpeech);
       ctx.outputSpeech.push(finalScoresNarrative);
-      ctx.outputSpeech.push("<break time='1s'/>");
+      ctx.outputSpeech.push("<break time='1s'/><!-- line 271 pause -->");
       ctx.outputSpeech.push(responseMessage.outputSpeech);
 
       // Clean up some attributes to set up for the next game
@@ -501,7 +501,13 @@ const Game = {
           // To change the correct answer sound, replace AUDIO.CORRECT_ANSWER_AUDIO
           // with your audio clip by updating config/settings.js
           ctx.outputSpeech.push(settings.AUDIO.CORRECT_ANSWER_AUDIO);
-          ctx.outputSpeech.push(responseMessage.outputSpeech)
+          ctx.outputSpeech.push(responseMessage.outputSpeech);
+
+          if (sessionAttributes.STATE === settings.STATE.BUTTONLESS_GAME_STATE) {
+            ctx.outputSpeech.push("<break time='.5s' /><!-- single player correct answer pause -->");
+          } else {
+            ctx.outputSpeech.push("<break time='2s' /><!-- multi-player correct answer pause -->");
+          }
           // mark that the user answered this correct
           sessionAttributes.correct = true;
 
@@ -532,6 +538,7 @@ const Game = {
           });
           ctx.outputSpeech.push(responseMessage.outputSpeech);
         }
+        ctx.outputSpeech.push("<break time='1s' /><!-- buttonless pause -->");
 
         sessionAttributes.correct = false;
       } else if (typeof sessionAttributes.repeat === 'undefined' ||
@@ -587,7 +594,7 @@ const Game = {
           ctx.outputSpeech.push(responseMessage.outputSpeech);
         }
 
-        ctx.outputSpeech.push("<break time='2s'/>");
+        ctx.outputSpeech.push("<break time='2s'/><!-- line 592 pause -->");
         sessionAttributes.correct = false;
       }
     }
@@ -691,7 +698,7 @@ const Game = {
 
       // Use a shorter break for buttonless games
       let breakTime = sessionAttributes.STATE === settings.STATE.BUTTON_GAME_STATE ? 1   : .5;
-      let answers = `<break time='${breakTime}s'/> Is it `;
+      let answers = `<break time='${breakTime}s'/><!-- after question pause --> Is it `;
       if (nextQuestion.answers) {
         if (nextQuestion.answers.length > 1) {
           answers += nextQuestion.answers.slice(0, -1).join(', ') + ", or, " +
