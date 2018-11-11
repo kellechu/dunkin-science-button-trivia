@@ -173,8 +173,10 @@ const messages = {
         outputSpeech: "Sorry, wrong answer player {{player_number}}."
       },
       'INCORRECT_ANSWER_TOO_MANY_TIMES': {
-        outputSpeech: "Sorry, wrong answer player {{player_number}}. " +
-          "Let's try another question."
+        outputSpeech: "Sorry, wrong answer player {{player_number}}."
+      },
+      'LETS_TRY_ANOTHER_QUESTION': {
+        outputSpeech: "Let's try another question."
       },
       'SINGLE_PLAYER_CORRECT_ANSWER_DURING_PLAY': {
         outputSpeech: "Correct! Great job."

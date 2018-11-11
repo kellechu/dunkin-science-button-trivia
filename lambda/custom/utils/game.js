@@ -594,7 +594,13 @@ const Game = {
           ctx.outputSpeech.push(responseMessage.outputSpeech);
         }
 
-        ctx.outputSpeech.push("<break time='2s'/><!-- line 592 pause -->");
+        if (sessionAttributes.currentQuestion <= settings.GAME.QUESTIONS_PER_GAME) {
+          // game NOT is over
+          const tryAnother = ctx.t('LETS_TRY_ANOTHER_QUESTION');
+          ctx.outputSpeech.push(tryAnother.outputSpeech);
+        }
+
+        ctx.outputSpeech.push("<break time='2s'/><!-- line 597 pause -->");
         sessionAttributes.correct = false;
       }
     }
