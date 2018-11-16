@@ -1079,7 +1079,7 @@ module.exports = Object.freeze({
     },
     {
       "index": 94,
-      "question": "What is term for the average number of total protons and neutrons in an atom's nucleus?",
+      "question": "What is the term for the average number of total protons and neutrons in an atom's nucleus?",
       "answers": [
         "Atomic theory",
         "Atomic mass",
