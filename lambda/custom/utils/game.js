@@ -194,7 +194,7 @@ const gameHelper = {
       }
       scoreGroups[score].push(i);
     }
-    let scoreKeys = Object.keys(scoreGroups).sort().reverse();
+    let scoreKeys = Object.keys(scoreGroups).sort((a,b) => a-b).reverse();
     let orderedScoreGroups = [];
     for (var k = 0; k < scoreKeys.length; k++) {
       orderedScoreGroups.push({
