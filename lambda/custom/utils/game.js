@@ -159,7 +159,7 @@ const gameHelper = {
 
     let outputSpeech = '';
     if (playerCount === 1) {
-      outputSpeech += "<break time '1s'/><!-- line 162 - single player pause in between rounds -->";
+      outputSpeech += "<break time='1s'/><!-- line 162 - single player pause in between rounds -->";
     }
 
     outputSpeech += introPrompt.outputSpeech + " " +
