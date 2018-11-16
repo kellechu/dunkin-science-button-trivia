@@ -157,8 +157,12 @@ const gameHelper = {
     });
     let outroPrompt = ctx.t('GAME_ROUND_SUMMARY_OUTRO');
 
-    let outputSpeech = "<break time='1s'/><!-- line 160 pause -->" +
-      introPrompt.outputSpeech + " " +
+    let outputSpeech = '';
+    if (playerCount === 1) {
+      outputSpeech += "<break time '1s'/><!-- line 162 - single player pause in between rounds -->";
+    }
+
+    outputSpeech += introPrompt.outputSpeech + " " +
       gameHelper.getFormattedScores(handlerInput, scores, playerCount) +
       "<break time='1s'/><!-- line 163 pause -->" +
       outroPrompt.outputSpeech +
